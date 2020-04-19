@@ -9,6 +9,7 @@ end_date INTEGER
 
 CREATE TABLE users (
 id INTEGER PRIMARY KEY,
+amount INTEGER,
 user_id INTEGER,
 name TEXT,
 age TEXT
